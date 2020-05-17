@@ -8,7 +8,7 @@ int main(void)
 	log("Welcome to this sorting algorithm.");
 	log("Choose 10 numbers (digits) so they will be returned in ascending order:");
 
-	int array[10];
+	int array[11];
 	int input;
 
 	for (int p = 1; p <= 10; p++)
@@ -19,7 +19,7 @@ int main(void)
 		
 	}
 
-	for (int j = 2; j <= 9; j++)
+	for (int j = 2; j <= 10; j++)
 	{
 		int key = array[j];
 		int k = j - 1;
